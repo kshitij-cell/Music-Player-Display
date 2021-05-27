@@ -45,15 +45,11 @@ body {
   border: 1px solid grey;
   background-color: rgba(17, 25, 61, 255);
   color: aliceblue;
-  background-image: url(icons8-search-24.png);
+  background-image: url(images/icons8-search-24.png);
   background-repeat: no-repeat;
   background-position: left top;
   padding-left: 30px;
-  /* font-size: 14px; */
 }
-/* .header input {
-  background: url(icons8-voice-recorder-25.png) right top no-repeat;
-} */
 .header-right input::placeholder {
   text-align: center;
   font-size: 16px;
