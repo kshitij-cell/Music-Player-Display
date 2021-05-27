@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(11, 16, 38, 255);
+  font-family: verdana;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  color: aliceblue;
+}
+.header-left img {
+  height: 100px;
+  margin-left: 20px;
+}
+.header-left h1 {
+  margin-left: 20px;
+}
+.header-left p {
+  margin-left: 70px;
+}
+.header-right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right input {
+  margin-right: 40px;
+  outline: none;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  border: 1px solid grey;
+  background-color: rgba(17, 25, 61, 255);
+  color: aliceblue;
+  background-image: url(icons8-search-24.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 30px;
+  /* font-size: 14px; */
+}
+/* .header input {
+  background: url(icons8-voice-recorder-25.png) right top no-repeat;
+} */
+.header-right input::placeholder {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header-right i {
+  margin-right: 50px;
+}
+.header-right i img {
+  height: 60px;
+}
+.header-right img.profile {
+  margin-right: 10px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
