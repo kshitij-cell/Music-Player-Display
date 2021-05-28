@@ -47,7 +47,8 @@ body {
   color: aliceblue;
   background-image: url(images/icons8-search-24.png);
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position-x: 5px;
+  background-position-y: 3px;
   padding-left: 30px;
 }
 .header-right input::placeholder {
@@ -65,4 +66,31 @@ body {
   margin-right: 10px;
   border: 3px solid white;
   border-radius: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contents {
+  width: 1200px;
+}
+.carousel {
+  margin-top: 5%;
+  text-align: center;
+  height: 300px;
+  background-color: brown;
+  background-image: url(images/back-img.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel img {
+  height: 300px;
+  width: 600px;
+}
+
+.queue {
+  width: 300px;
+  height: 800px;
+  background-color: blue;
 }
