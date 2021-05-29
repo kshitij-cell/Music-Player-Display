@@ -1,0 +1,75 @@
+.solo {
+  width: 1000px;
+  background-color: rgba(17, 25, 61, 255);
+
+  margin: 0 4%;
+}
+.sidebar {
+  width: 500px;
+  /* height: 700px; */
+  background-color: blue;
+}
+.oned {
+  display: flex;
+  height: 500px;
+}
+.oned .pic img {
+  height: 500px;
+  width: 500px;
+}
+.description {
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 10px;
+  width: 500px;
+}
+.band-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2px;
+}
+.description p {
+  /* text-align: center; */
+  margin-top: 20px;
+}
+.description h3 {
+  margin-left: 0;
+}
+.button {
+  margin-top: 15%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+button {
+  width: 23%;
+  height: 40px;
+  outline: none;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(52, 34, 176, 255),
+    rgba(175, 66, 217, 255)
+  );
+  cursor: pointer;
+}
+.button h5 {
+  margin-left: 90px;
+}
+.button .solo-list {
+  height: 600px;
+}
+.solo-song {
+  height: 70px;
+  margin: 10px 0;
+  background-color: brown;
+}
+.similar {
+  height: 400px;
+  background-color: blueviolet;
+}
