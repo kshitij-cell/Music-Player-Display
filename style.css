@@ -74,7 +74,7 @@ body {
 }
 .contents {
   width: 900px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 .carousel {
   margin-top: 5%;
@@ -115,45 +115,49 @@ h3 {
   opacity: 0.3;
 }
 
-.dropdown{
+.dropdown {
   position: absolute;
   width: 10rem;
   background-color: aliceblue;
   z-index: 4;
   display: none;
 }
-.dropdownContent{
+.dropdownContent {
   color: black;
   border: 1px solid black;
   cursor: pointer;
+  display: flex;
+  /* justify-content: space-around; */
 }
-
-.dropdownContent:hover{
-  background-color: rgb(156, 173, 187);
+/* 
+.dropdownContent:hover {
   color: aliceblue;
-}
+} */
 
-.show{
+.show {
   display: block;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.show:focus ~ .dropdown{
+.show:focus ~ .dropdown {
   display: block;
 }
 
-.show:focus ~ .hide{
+.show:focus ~ .hide {
   display: block;
 }
 
-.show:focus{
-  display: none;
+.show:focus {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.hide:focus ~ .dropdown{
+.hide:focus ~ .dropdown {
   display: none;
 }
 /*  */
@@ -219,13 +223,15 @@ h3 {
 .mood p {
   margin-top: 20%;
   font-size: 30px;
-  color: rgb(240, 9, 9);
+  color: rgb(253, 253, 255);
   font-weight: bolder;
   text-transform: uppercase;
+  opacity: 0.9;
 }
 .mood div {
   height: 100px;
   width: 200px;
+  opacity: 0.5;
   border-radius: 70%;
   border-style: groove;
   padding: 10px;
@@ -233,7 +239,6 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .love {
   background-image: url(images/love.jpg);
 }
@@ -280,7 +285,7 @@ h3 {
 }
 .types p {
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 600;
@@ -293,7 +298,6 @@ h3 {
 }
 .queue {
   margin-top: 3%;
-  margin-left: 3%;
   width: 600px;
   height: 1900px;
   text-align: center;
@@ -304,7 +308,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  margin-left: 7%;
 }
 .queue-header p {
   text-transform: capitalize;
