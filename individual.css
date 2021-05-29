@@ -1,6 +1,6 @@
 .solo {
   width: 1000px;
-  background-color: rgba(17, 25, 61, 255);
+  /* background-color: rgba(17, 25, 61, 255); */
 
   margin: 0 4%;
 }
@@ -12,6 +12,7 @@
 .oned {
   display: flex;
   height: 500px;
+  background-color: rgba(25, 30, 50, 255);
 }
 .oned .pic img {
   height: 500px;
@@ -22,6 +23,7 @@
   margin-top: 10%;
   margin-left: 10px;
   width: 500px;
+  /* background-color: rgba(25, 30, 50, 255); */
 }
 .band-name {
   display: flex;
@@ -67,7 +69,27 @@ button {
 .solo-song {
   height: 70px;
   margin: 10px 0;
-  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(25, 30, 50, 255); */
+  background-color: rgba(25, 30, 50, 255);
+}
+.song-desc {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-around;
+}
+.song-desc img {
+  border: 2px solid white;
+  border-radius: 30px;
+}
+.icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .similar {
   height: 400px;
