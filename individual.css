@@ -6,8 +6,7 @@
 }
 .sidebar {
   width: 500px;
-  /* height: 700px; */
-  background-color: blue;
+  margin-right: 2%;
 }
 .oned {
   display: flex;
@@ -92,6 +91,19 @@ button {
   align-items: center;
 }
 .similar {
-  height: 400px;
-  background-color: blueviolet;
+  /* height: 400px; */
+  padding: 0 20px;
+}
+.similar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.recently {
+  margin-top: 20px;
+}
+.song-recents {
+  height: 350px;
+  overflow-y: scroll;
 }
